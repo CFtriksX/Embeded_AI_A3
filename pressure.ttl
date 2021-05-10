@@ -1,0 +1,85 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/ssn/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<Observation/1> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <earthAtmosphere> ;
+    sosa:hasSimpleResult "1200.61"^^xsd:ucum ;
+    sosa:madeBySensor <sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2021-05-10T17:54:29+00:00"^^xsd:dateTime .
+
+<Observation/10> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <earthAtmosphere> ;
+    sosa:hasSimpleResult "1199.58"^^xsd:ucum ;
+    sosa:madeBySensor <sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2021-05-10T17:54:38+00:00"^^xsd:dateTime .
+
+<Observation/2> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <earthAtmosphere> ;
+    sosa:hasSimpleResult "1200.09"^^xsd:ucum ;
+    sosa:madeBySensor <sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2021-05-10T17:54:30+00:00"^^xsd:dateTime .
+
+<Observation/3> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <earthAtmosphere> ;
+    sosa:hasSimpleResult "1200.70"^^xsd:ucum ;
+    sosa:madeBySensor <sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2021-05-10T17:54:31+00:00"^^xsd:dateTime .
+
+<Observation/4> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <earthAtmosphere> ;
+    sosa:hasSimpleResult "1200.75"^^xsd:ucum ;
+    sosa:madeBySensor <sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2021-05-10T17:54:32+00:00"^^xsd:dateTime .
+
+<Observation/5> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <earthAtmosphere> ;
+    sosa:hasSimpleResult "1200.09"^^xsd:ucum ;
+    sosa:madeBySensor <sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2021-05-10T17:54:33+00:00"^^xsd:dateTime .
+
+<Observation/6> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <earthAtmosphere> ;
+    sosa:hasSimpleResult "1198.56"^^xsd:ucum ;
+    sosa:madeBySensor <sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2021-05-10T17:54:34+00:00"^^xsd:dateTime .
+
+<Observation/7> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <earthAtmosphere> ;
+    sosa:hasSimpleResult "1200.92"^^xsd:ucum ;
+    sosa:madeBySensor <sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2021-05-10T17:54:35+00:00"^^xsd:dateTime .
+
+<Observation/8> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <earthAtmosphere> ;
+    sosa:hasSimpleResult "1199.23"^^xsd:ucum ;
+    sosa:madeBySensor <sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2021-05-10T17:54:36+00:00"^^xsd:dateTime .
+
+<Observation/9> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <earthAtmosphere> ;
+    sosa:hasSimpleResult "1199.58"^^xsd:ucum ;
+    sosa:madeBySensor <sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2021-05-10T17:54:37+00:00"^^xsd:dateTime .
+
+<iphone7/35-207306-844818-0> a sosa:Platform ;
+    rdfs:label "IPhone 7 - IMEI 35-207306-844818-0"@en ;
+    rdfs:comment "IPhone 7 - IMEI 35-207306-844818-0 - John Doe"@en ;
+    sosa:host <sensor/35-207306-844818-0/BMP282> .
+
+<earthAtmosphere> a sosa:FeatureOfInterest ;
+    rdfs:label "Atmosphere of Earth"@en .
+
+<sensor/35-207306-844818-0/BMP282> a sosa:Platform ;
+    rdfs:label "Bosch Sensortec BMP282"@en .
+
